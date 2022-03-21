@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="57b1310b-2302-428b-bd50-34837b98ba4d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Desafio B2/javaserenitybddtemplate-master/ReportAuto/browser-chrome.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Desafio B2/javaserenitybddtemplate-master/src/test/java/br/com/serenitybddtemplate/utils/GlobalParameters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Curso Julio de Lima/.idea/Curso Julio de Lima.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DSL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TesteAlert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TesteCadastro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TesteFramesEJanelas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/TesteAlert.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/TesteCadastro.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ninjaplus/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desafio B2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desafio B2/javaserenitybddtemplate-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Desafio B2/javaserenitybddtemplate-master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desafio B2/javaserenitybddtemplate-master/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../Desafio B2/javaserenitybddtemplate-master/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desafio B2/javaserenitybddtemplate-master/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Desafio B2/javaserenitybddtemplate-master/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desafio B2/javaserenitybddtemplate-master/src/test/java/br/com/serenitybddtemplate/hooks/GeneralHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Desafio B2/javaserenitybddtemplate-master/src/test/java/br/com/serenitybddtemplate/hooks/GeneralHooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desafio B2/javaserenitybddtemplate-master/src/test/java/br/com/serenitybddtemplate/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Desafio B2/javaserenitybddtemplate-master/src/test/java/br/com/serenitybddtemplate/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desafio B2/javaserenitybddtemplate-master/src/test/java/br/com/serenitybddtemplate/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Desafio B2/javaserenitybddtemplate-master/src/test/java/br/com/serenitybddtemplate/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desafio B2/javaserenitybddtemplate-master/src/test/java/br/com/serenitybddtemplate/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Desafio B2/javaserenitybddtemplate-master/src/test/java/br/com/serenitybddtemplate/steps/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desafio B2/javaserenitybddtemplate-master/src/test/resources/Drivers/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../Desafio B2/javaserenitybddtemplate-master/src/test/resources/Drivers/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desafio B2/javaserenitybddtemplate-master/src/test/resources/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../../Desafio B2/javaserenitybddtemplate-master/src/test/resources/features/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desafio Base2/javaserenitybddtemplate-master (1)/javaserenitybddtemplate-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desafio Base2/javaserenitybddtemplate-master (1)/javaserenitybddtemplate-master/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desafio Base2/javaserenitybddtemplate-master (1)/javaserenitybddtemplate-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desafio Base2/javaserenitybddtemplate-master (1)/javaserenitybddtemplate-master/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desafio Base2/javaserenitybddtemplate-master (1)/javaserenitybddtemplate-master/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desafio Base2/javaserenitybddtemplate-master (1)/javaserenitybddtemplate-master/serenity.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desafio Base2/javaserenitybddtemplate-master (1)/javaserenitybddtemplate-master/settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desafio Base2/javaserenitybddtemplate-master (1)/javaserenitybddtemplate-master/src/test/java/br/com/serenitybddtemplate/bases/PageBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desafio Base2/javaserenitybddtemplate-master (1)/javaserenitybddtemplate-master/src/test/java/br/com/serenitybddtemplate/dbsteps/UsersDBSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desafio Base2/javaserenitybddtemplate-master (1)/javaserenitybddtemplate-master/src/test/java/br/com/serenitybddtemplate/hooks/GeneralHooks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desafio Base2/javaserenitybddtemplate-master (1)/javaserenitybddtemplate-master/src/test/java/br/com/serenitybddtemplate/pages/BugReportPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desafio Base2/javaserenitybddtemplate-master (1)/javaserenitybddtemplate-master/src/test/java/br/com/serenitybddtemplate/pages/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desafio Base2/javaserenitybddtemplate-master (1)/javaserenitybddtemplate-master/src/test/java/br/com/serenitybddtemplate/pages/MainPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desafio Base2/javaserenitybddtemplate-master (1)/javaserenitybddtemplate-master/src/test/java/br/com/serenitybddtemplate/sqls/users/retornaSenhaDoUsuario.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desafio Base2/javaserenitybddtemplate-master (1)/javaserenitybddtemplate-master/src/test/java/br/com/serenitybddtemplate/stepdefinitions/LoginStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Desafio B2/javaserenitybddtemplate-master/src/test/java/br/com/serenitybddtemplate/stepdefinitions/LoginStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desafio Base2/javaserenitybddtemplate-master (1)/javaserenitybddtemplate-master/src/test/java/br/com/serenitybddtemplate/steps/BugReportSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desafio Base2/javaserenitybddtemplate-master (1)/javaserenitybddtemplate-master/src/test/java/br/com/serenitybddtemplate/steps/LoginSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desafio Base2/javaserenitybddtemplate-master (1)/javaserenitybddtemplate-master/src/test/java/br/com/serenitybddtemplate/steps/MainSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desafio Base2/javaserenitybddtemplate-master (1)/javaserenitybddtemplate-master/src/test/java/br/com/serenitybddtemplate/tests/LoginTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desafio Base2/javaserenitybddtemplate-master (1)/javaserenitybddtemplate-master/src/test/java/br/com/serenitybddtemplate/utils/DBUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desafio Base2/javaserenitybddtemplate-master (1)/javaserenitybddtemplate-master/src/test/java/br/com/serenitybddtemplate/utils/GeneralUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desafio Base2/javaserenitybddtemplate-master (1)/javaserenitybddtemplate-master/src/test/resources/features/login.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Desafio Base2/javaserenitybddtemplate-master (1)/javaserenitybddtemplate-master/src/test/resources/features/reprotBug.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/curso_programacao" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/out/production/untitled104/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/out/production/untitled104/entities/Produtos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CursoSelenium.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CursoSelenium.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TesteCampoTreinamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TesteCampoTreinamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TesteGoogle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TesteGoogle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Drivers/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Drivers/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Drivers/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Drivers/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TesteCampoTreinamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TesteCampoTreinamento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TesteGoogle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TesteGoogle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desafio_base2 - Caio/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../desafio_base2 - Caio/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desafio_base2 - Caio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../desafio_base2 - Caio/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desafio_base2 - Caio/src/main/java/desafio_base2/TesteCrudIssue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../desafio_base2 - Caio/src/main/java/desafio_base2/TesteCrudIssue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desafio_base2 - Caio/target/classes/desafio_base2/TesteCrudIssue.class" beforeDir="false" afterPath="$PROJECT_DIR$/../desafio_base2 - Caio/target/classes/desafio_base2/TesteCrudIssue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sicredi-Digital-QA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../curso_programacao/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javaserenitybddtemplate-master/src/test/java/br/com/serenitybddtemplate/utils/GlobalParameters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../serenity.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Desafio B2/javaserenitybddtemplate-master/serenity.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="26iUCuosrjWGUYqe8gmKfSRK58I" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SicrediTeste" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager" selected="JUnit.TesteAlert.deveInteragirComAlertSimples">
+    <configuration name="TesteAlert.deveInteragirComAlertConfirm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CursoSelenium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TesteAlert" />
+      <option name="METHOD_NAME" value="deveInteragirComAlertConfirm" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteAlert.deveInteragirComAlertSimples" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CursoSelenium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TesteAlert" />
+      <option name="METHOD_NAME" value="deveInteragirComAlertSimples" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TesteAlert.deveInteragirComAlertSimples" />
+        <item itemvalue="JUnit.TesteAlert.deveInteragirComAlertConfirm" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="57b1310b-2302-428b-bd50-34837b98ba4d" name="Default Changelist" comment="" />
+      <created>1647905777529</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647905777529</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
