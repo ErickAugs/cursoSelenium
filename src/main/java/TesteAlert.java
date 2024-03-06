@@ -14,10 +14,10 @@ public class TesteAlert {
 	
 	@Before
 	public void inicializa(){
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\erickAugusto\\Desktop\\Projects\\Selenium\\CursoSelenium\\src\\main\\resources\\Drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\Projetos\\Selenium WebDriver\\chromedriver-win64\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("file:///" + System.getProperty("user.dir") + "/src/main/resources/componentes.html");
+		driver.get("D:\\Projetos\\Selenium WebDriver\\cursoSeleniumWagnerAquino\\src\\main\\resources\\componentes.html");
 		dsl = new DSL(driver);
 	}
 	@After
