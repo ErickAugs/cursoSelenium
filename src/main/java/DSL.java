@@ -183,7 +183,6 @@ public class DSL {
 		}
 		//procurar a coluna do botão
 		//clicar no botão da celula encontrada
-
 	}
 
 	protected int obterIndiceColuna(String colunaBusca, WebElement tabela){
