@@ -165,4 +165,37 @@ public class DSL {
 	public void trocarJanela(String id) {
 		driver.switchTo().window(id);
 	}
+
+	/********* Tabelas ************/
+
+	public void clicarTabelas(String colunaBusca, String valor, String colunaBotao, String botao, String idColuna){
+		//procurar coluna do registros
+		WebElement tabela = driver.findElement(By.xpath("//*[@id=\"elementosForm:tableUsuarios\"]/thead/tr"));
+		obterIndiceColuna(colunaBusca, tabela);
+		//encontrar a linha do registros
+		List<WebElement> linhas = tabela.findElements(By.xpath(".//tr/td["+idColuna+"]"));
+		int idLinha = -1;
+		for(int i=0; i<linhas.size(); i++){
+			if(linhas.get(i).getText().equals(colunaBusca)){
+				idLinha = i+1;
+				break;
+			}
+		}
+		//procurar a coluna do botão
+		//clicar no botão da celula encontrada
+
+	}
+
+	protected int obterIndiceColuna(String colunaBusca, WebElement tabela){
+		List<WebElement> colunas = tabela.findElements(By.xpath(".//th"));
+		int idColuna = -1;
+		for(int i=0; i<colunas.size(); i++){
+			if(colunas.get(i).getText().equals(colunaBusca)){
+				idColuna = i+1;
+				break;
+			}
+		}
+		return idColuna;
+	}
+
 }
