@@ -15,7 +15,6 @@ public class TesteGoogle {
 		driver = new FirefoxDriver();
 		driver.manage().window().setSize(new Dimension(1200, 765));
 	}
-	
 	@After
 	public void finaliza(){
 		driver.quit();
