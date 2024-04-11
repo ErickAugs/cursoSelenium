@@ -27,7 +27,7 @@ public class TesteCampoTreinamento {
 	
 	@After
 	public void finaliza(){
-		driver.quit();
+		//driver.quit();
 	}
 	
 	@Test
@@ -103,7 +103,11 @@ public class TesteCampoTreinamento {
 		Assert.assertEquals("Cuidado onde clica, muitas armadilhas...", 
 				dsl.obterTexto(By.className("facilAchar")));
 	}
-	
+
+	@Test
+	public void deveClicarBotaoTabela(){
+		dsl.clicarNomeTabelas("Nome", "Maria", "Botao",  "elementosForm:tableUsuarios");
+	}
 }
 
 
