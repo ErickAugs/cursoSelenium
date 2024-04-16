@@ -13,10 +13,10 @@ public class TesteAlert {
 	private DSL dsl;
 	private TesteAlert alert;
 	
+
 	@Before
-	public void inicializa(){
-		System.setProperty("webdriver.chrome.driver", "D:\\Projetos\\Selenium WebDriver\\chromedriver-win64\\chromedriver.exe");
-		DriverFactory.getDriver().get("D:\\Projetos\\Selenium WebDriver\\cursoSeleniumWagnerAquino\\src\\main\\resources\\componentes.html");
+	public void inicializa() {
+		DriverFactory.getDriver();
 		alert = new TesteAlert();
 	}
 	@After
