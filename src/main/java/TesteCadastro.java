@@ -1,11 +1,11 @@
+import Core.DSL;
+import Core.DriverFactory;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class TesteCadastro {
 	
@@ -15,15 +15,12 @@ public class TesteCadastro {
 	@Before
 	public void inicializa(){
 		System.setProperty("webdriver.chrome.driver", "D:\\Projetos\\Selenium WebDriver\\chromedriver-win64\\chromedriver.exe");
-		driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.get("D:\\Projetos\\Selenium WebDriver\\cursoSeleniumWagnerAquino\\src\\main\\resources\\componentes.html");
-		dsl = new DSL(driver);
+		DriverFactory.getDriver().get("D:\\Projetos\\Selenium WebDriver\\cursoSeleniumWagnerAquino\\src\\main\\resources\\componentes.html");
 	}
 	
 	@After
 	public void finaliza(){
-		driver.quit();
+		DriverFactory.killDriver();
 	}
 
 	@Test

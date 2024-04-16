@@ -1,33 +1,31 @@
 import java.util.Arrays;
 import java.util.List;
 
+import Core.DSL;
+import Core.DriverFactory;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class TesteCampoTreinamento {
 	
 	private WebDriver driver;
-	private DSL dsl;
+	private DSL dsl = new DSL();
+	private TesteCampoTreinamento page;
 
 	@Before
 	public void inicializa(){
-		System.setProperty("webdriver.chrome.driver", "D:\\Projetos\\Selenium WebDriver\\chromedriver-win64\\chromedriver.exe");
-		driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.get("D:\\Projetos\\Selenium WebDriver\\cursoSeleniumWagnerAquino\\src\\main\\resources\\componentes.html");
-		dsl = new DSL(driver);
+		DriverFactory.getDriver();
+		page = new TesteCampoTreinamento();
 	}
 	
 	@After
 	public void finaliza(){
-		//driver.quit();
+		DriverFactory.killDriver();
 	}
 	
 	@Test
