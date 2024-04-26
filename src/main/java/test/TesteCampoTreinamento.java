@@ -1,32 +1,14 @@
+package test;
+
 import java.util.Arrays;
 import java.util.List;
 
-import Core.DSL;
-import Core.DriverFactory;
-import org.junit.After;
 import org.junit.Assert;
-import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import page.BasePage;
 
-public class TesteCampoTreinamento {
-	
-	private WebDriver driver;
-	private DSL dsl = new DSL();
-	private TesteCampoTreinamento page;
-
-	@Before
-	public void inicializa(){
-		DriverFactory.getDriver();
-		page = new TesteCampoTreinamento();
-	}
-	
-	@After
-	public void finaliza(){
-		DriverFactory.killDriver();
-	}
+public class TesteCampoTreinamento extends BasePage {
 	
 	@Test
 	public void testeTextField(){

@@ -1,11 +1,12 @@
-import Core.DSL;
-import Core.DriverFactory;
+package test;
+
+import core.DSL;
+import core.DriverFactory;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 public class TesteAlert {
 	

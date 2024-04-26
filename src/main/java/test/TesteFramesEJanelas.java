@@ -1,29 +1,14 @@
-import Core.DSL;
-import Core.DriverFactory;
-import org.junit.After;
+package test;
+
 import org.junit.Assert;
-import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import page.BasePage;
 
 
-public class TesteFramesEJanelas {
-
-	private WebDriver driver;
-	private DSL dsl = new DSL();
-
-	@Before
-	public void inicializa() {
-		DriverFactory.getDriver();
-	}
-
-	@After
-	public void finaliza(){
-		DriverFactory.killDriver();
-	}
-
+public class TesteFramesEJanelas extends BasePage{
+	WebDriver driver;
 	@Test
 	public void deveInteragirComFrames(){
 		dsl.entrarFrame("frame1");

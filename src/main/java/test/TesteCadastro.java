@@ -1,27 +1,10 @@
-import Core.DSL;
-import Core.DriverFactory;
-import org.junit.After;
+package test;
+
 import org.junit.Assert;
-import org.junit.Before;
 import org.junit.Test;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import page.BasePage;
 
-public class TesteCadastro {
-	
-	private WebDriver driver;
-	private DSL dsl;
-
-	@Before
-	public void inicializa(){
-		System.setProperty("webdriver.chrome.driver", "D:\\Projetos\\Selenium WebDriver\\chromedriver-win64\\chromedriver.exe");
-		DriverFactory.getDriver().get("D:\\Projetos\\Selenium WebDriver\\cursoSeleniumWagnerAquino\\src\\main\\resources\\componentes.html");
-	}
-	
-	@After
-	public void finaliza(){
-		DriverFactory.killDriver();
-	}
+public class TesteCadastro extends BasePage {
 
 	@Test
 	public void deveRealizarCadastroComSucesso(){
